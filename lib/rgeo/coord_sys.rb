@@ -65,9 +65,7 @@ end
 
 
 # Implementation files
-begin
-  require 'rgeo/coord_sys/proj4_c_impl'
-rescue ::LoadError; end
+require 'rgeo/coord_sys/proj4_c_impl'
 require 'rgeo/coord_sys/proj4'
 require 'rgeo/coord_sys/cs/factories'
 require 'rgeo/coord_sys/cs/entities'
